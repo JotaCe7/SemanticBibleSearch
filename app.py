@@ -10,7 +10,7 @@ from src.transcript import get_text_from_audio
 logger = logging.getLogger('app')
 
 def main():
-    title = "Getting Images from Audio and Text"
+    title = "Tell us how do you feel"
     st.set_page_config(page_title=title,page_icon=None, layout='centered')
     st.title(title)
     image = Image.open(os.path.join(RESOURCES_DIR, 'hope.jpeg'))
