@@ -4,7 +4,13 @@ import os
 UPLOAD_ENDPOINT = 'https://api.assemblyai.com/v2/upload'
 TRASCRIPT_ENDPOINT = "https://api.assemblyai.com/v2/transcript"
 ASSEMBLY_KEY = 'ASSEMBLY_KEY'
-
+# Cohere API
+COHERE_KEY = 'COHERE_KEY'
+COHERE_MODEL = 'large'
+# Pinecome API
+PINECONE_KEY = 'PINECONE_KEY'
+PINECONE_ENV = 'us-west1-gcp'
+PINCEONE_INDEX = 'cohere-pinecone-bible'
 
 # The Root Directory of the project
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
