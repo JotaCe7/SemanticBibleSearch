@@ -1,0 +1,16 @@
+<h1>Welcome to Genesis!</h1>
+<h3>where Bible Study starts with AI</h3>
+<!doctype html>
+{{name}}, start reading from the following verses: 
+  <table>
+    {% for result in results %}
+
+    <tr>
+       <!-- <th> {{ key }} </th> -->
+       <td> {{ result }} </td>
+    </tr>
+
+    {% endfor %}
+ </table>
+
+ <a href="/">Start over</a>
