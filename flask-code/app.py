@@ -44,6 +44,6 @@ def response():
         results = []
         for result in res['matches']:
             verse = result['metadata']
-            results.append(verse['meta'] + ', ' + verse['verse'])
+            results.append('Proverbs ' + verse['meta'] + ', ' + verse['verse'])
 
         return render_template('response.html', results=results, name=name)
